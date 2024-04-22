@@ -1,0 +1,66 @@
+css
+/* Create a new file called 'styles.css' in the 'public' folder */
+/* Add CSS rules to style the header, navigation menu, search bar, content areas, and footer */
+/* Use the color palette and typography from the Makinto website */
+
+/* Header */
+header {
+    background-color: #008cba;
+    color: #fff;
+    padding: 1rem;
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.search-bar input[type="text"] {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    margin-right: 0.5rem;
+}
+
+.search-bar button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #008cba;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Content Areas */
+.content-area {
+    padding: 2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #008cba;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+
